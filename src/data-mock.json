@@ -1,0 +1,57 @@
+[
+  {
+    "id": "001",
+    "name": "Kristen Tyler",
+    "profilePhoto": "https://randomuser.me/api/portraits/women/3.jpg",
+    "role": "Acount Manager",
+    "availability": [ "The guardians", "Cork inc.", "VC Capitals" ]
+  },
+
+  {
+    "id": "002",
+    "name": "Mark Dressler",
+    "profilePhoto": "https://randomuser.me/api/portraits/men/29.jpg",
+    "role": "Project Leader",
+    "availability": [ "Red Architects", "VC Capitals", "Luke Brands" ]
+  },
+
+  {
+    "id": "003",
+    "name": "Levy Curtis",
+    "profilePhoto": "https://randomuser.me/api/portraits/women/26.jpg",
+    "role": "Engineering Architect",
+    "availability": [ "Luke Brands", "Home binds" ]
+  },
+
+  {
+    "id": "004",
+    "name": "Joe Davis",
+    "profilePhoto": "https://randomuser.me/api/portraits/men/91.jpg",
+    "role": "Engineering Architect",
+    "availability": [ "Home binds", "VC Capitals", "The guardians" ]
+  },
+
+  {
+    "id": "005",
+    "name": "Laura Vasquez",
+    "profilePhoto": "https://randomuser.me/api/portraits/women/8.jpg",
+    "role": "Project Leader",
+    "availability": [ "Home binds", "Cork inc." ]
+  },
+
+  {
+    "id": "006",
+    "name": "Robert Chicks",
+    "profilePhoto": "https://randomuser.me/api/portraits/men/49.jpg",
+    "role": "Acount Manager",
+    "availability": [ "Luke Brands", "Red Architects" ]
+  },
+  
+  {
+    "id": "007",
+    "name": "Jeff Ritter",
+    "profilePhoto": "https://randomuser.me/api/portraits/men/34.jpg",
+    "role": "Engineering Architect",
+    "availability": [ "Cork inc.", "Red Architects" ]
+  }
+]

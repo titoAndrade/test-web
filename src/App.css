@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+body {
+  background: #e8e8e8;
+  padding-block: 2vmax;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  height: 4.5vmax;
+  margin: 0.5vmax;
+  border-radius: 50%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img:not(:hover) {
+  transition: 0.5s ease-in-out;
+}
+
+h1 {
+  font-size: 1vmax;
+  width: 8vmax;
+}
+
+h3 {
+  font-size: 1.1vmax;
+}
+
+p {
+  font-size: 0.9vmax;
+  text-align: left;
+  margin-top: 1vmax;
+}
+
+#content {
+  margin-block: 0.5em;
+  padding-block: 0.5em;
+  border-radius: 30px;
+  background: #e6e6e6;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;  
+}
+
+#title {
   display: flex;
-  flex-direction: column;
+  margin: 1vmax;
+}
+
+#title h1 {
+  display: inline;
+  font-size: 1.2vmax;
+  font-weight: 900;
+}
+
+#member {
+  margin-left: 6vmax;
+}
+
+#role {
+  margin-left: 8vmax;
+}
+
+#availability {
+  margin-left: 3vmax;
+}
+
+#cards {
+  height: 5.2vmax;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-top: solid 1px #d0d0d0;
 }
 
-.App-link {
-  color: #61dafb;
+#cards div {
+  padding: 3vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#cards h1 {
+  margin-left: -10vw;
 }
+
+#cards h3 {
+  margin-left: -8vw;
+}
+
+button {
+  position: absolute;
+  height: 3vmax;
+  margin-top: 1vmax;
+  margin-left: 15.5vw;
+  color: #090909;
+  padding: 0.8vmax 2vmax ;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+  box-shadow: 6px 6px 12px #c5c5c5,
+              -6px -6px 12px #ffffff;
+ }
+ 
+ button:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5,
+              inset -4px -4px 12px #ffffff;
+ }
+
+/* #liveAlertPlaceholder {
+
+} */
