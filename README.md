@@ -9,21 +9,23 @@ y componentes web)
 Este proyecto fue desarrollado con React\
 por lo que podrás encontrar la clásica estructura de un 'create-react-app'
  
-Resumen:\
+Resumen:
 
   /carpeta 'public'\
     * index.html
 
   /carpeta 'src'\
-    * carpeta 'components'\
-      ** Button.js\
-      ** Members.js\
-      ** Table.js\
-    * App.js\
-    * App.css\
-    * data-mock.json\
-    * package-lock.json\
-    * package.json
+
+    /carpeta 'components'\
+       Button.js\
+       Members.js\
+       Table.js\
+
+     App.js\
+     App.css\
+     data-mock.json\
+     package-lock.json\
+    *package.json
 
 ## ¿Como ver este proyecto?
 
