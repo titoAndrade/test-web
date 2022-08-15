@@ -11,10 +11,10 @@ por lo que podrás encontrar la clásica estructura de un 'create-react-app'
  
 Resumen:
 
-  /carpeta 'public'
-    * index.html
+    /carpeta 'public'
+      * index.html
 
-  /carpeta 'src'
+    /carpeta 'src'
 
     /carpeta 'components'
        Button.js
@@ -25,7 +25,7 @@ Resumen:
      App.css
      data-mock.json
      package-lock.json
-    package.json
+     package.json
 
 ## ¿Como ver este proyecto?
 
