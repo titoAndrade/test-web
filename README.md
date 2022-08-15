@@ -12,7 +12,7 @@ por lo que podrás encontrar la clásica estructura de un 'create-react-app'
 Resumen:
 
     /carpeta 'public'
-      * index.html
+       index.html
 
     /carpeta 'src'
 
